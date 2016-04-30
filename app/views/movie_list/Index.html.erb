@@ -4,12 +4,23 @@
 </div>
 
 <div id="search">
+<<<<<<< HEAD
   <!-- <%#= text.input :userinput => 'userinput', input_html: {name} %> -->
   <%= form_tag("/MovieListController", method: "searchAPI") do %>
 
     <input type="text" placeholder="Movie Search" />
 
   <% end %>
+=======
+  <!-- <%= text.input :userinput => 'userinput', input_html: {name} %> -->
+  <%= form_tag("/MovieListController", method: "searchAPI") do %>
+  <%= label_tag(:q, "Search for:") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Search") %>
+  <% end %>
+
+    <input type="text" placeholder="Movie Search" />
+>>>>>>> 5d8aca0e23857fc75b121371fbb0725dbd4296a8
   </div>
 
   <div id="buttons">
