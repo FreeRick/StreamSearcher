@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+body{
+  background-color: grey;
+}
+
+div{
+  text-align: center;
+}
+
+.title{
+  font-size: 80px;
+  text-align: center;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -200px;
+}
+
+#search{
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -40px;
+}
+
+#buttons{
+  text-align: center;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -30px;
+}
