@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
   get 'movie_list/index'
+<<<<<<< HEAD
+=======
+
+>>>>>>> b26eada1a80d825f266eb87d1469b2bbc0c33a49
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
