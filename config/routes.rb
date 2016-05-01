@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'movie_list/index'
+  get 'movie_list/index', to: 'movie_list#index'
 
   post 'movie_lists/index', to: 'movie_list#searchAPI'
 
