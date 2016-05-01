@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :users
   get 'movie_list/index', to: 'movie_list#index'
 
   post 'movie_lists/index', to: 'movie_list#searchAPI'
