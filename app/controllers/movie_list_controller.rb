@@ -8,7 +8,8 @@ class MovieListController < ApplicationController
     userinput = params[:userinput]
     userinput = userinput.split(' ').join('-')
     guidebox_request = HTTParty.get("http://api-public.guidebox.com/v1.43/US/rKzzNhxn0Pw7LcthbwDKx1SiZIIYwa0t/search/movie/title/#{userinput}")
-
+    @movie_info = guidebox_request["results"].first
+    p @movie_info
   end
 
   end
