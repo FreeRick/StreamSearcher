@@ -1,4 +1,4 @@
-<div class="header">
+<div>
   <!-- <p id="brand">
     Search Screener
   <form>
@@ -21,16 +21,16 @@
     </div>
 
     <div class="release">
-      <%= @movie_info['release_year'] %>
+      Release Date: <%= @movie_info['release_year'] %>
     </div>
 
     <div class="rating">
-      <%= @movie_info["overview"] %>
+      Rated: <%= @movie_info["rating"] %>
     </div>
   </nav>
 
   <article class="description">
-      <%= @movie_info["overview"] %>
+    Synopsis: <%= @movie_info["overview"] || "Not available" %>
   </article>
 
   <aside class="service">
