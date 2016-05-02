@@ -16,21 +16,22 @@ footer {
 	display: block;
 }
 
-// .header {
-// 	// background: hsla(200, 10%, 70%, .5);
-// 	min-height: 30px;
-// 	width: 50%;
-// 	order: 1;
-//   text-align: left;
-//   margin-top: 10px;
-//   margin-bottom: 10px;
-
-// testing
-
-a{
-  text-align: center;
-  vertical-align: bottom;
+.header {
+	background: grey;
+	min-height: 30px;
+	width: 50%;
+	order: 1;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
+
+
+// a{
+//   text-align: center;
+//   // vertical-align: bottom;
+// }
 
 section {
 	min-width: 100%;
