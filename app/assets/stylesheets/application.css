@@ -1,3 +1,4 @@
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -13,3 +14,60 @@
  *= require_tree .
  *= require_self
  */
+body{
+  background-image: url(https://dragonartz.files.wordpress.com/2009/09/vector-movie-set2-04-by-dragonart.jpg?w=495&h=495);
+  background-size: cover; contain;
+}
+
+div{
+  text-align: center;
+
+}
+
+.title{
+  font-size: 80px;
+  text-align: center;
+  position: fixed;
+  top: 35%;
+  left: 43.5%;
+  margin-top: -50px;
+  margin-left: -200px;
+  color: white;
+  font-family: fantasy;
+}
+
+#search{
+  text-align: center;
+  position: fixed;
+  top: 52.5%;
+  left: 29%;
+  margin-top: -50px;
+  margin-left: -40px;
+  /*margin: auto;*/
+  width: 50%;
+
+}
+
+#buttons{
+  text-align: center;
+  position: fixed;
+  top: 60%;
+  left: 38%;
+  margin-top: -50px;
+  margin-left: -20px;
+}
+button{
+  width: 250px;
+  height: 25px;
+  border-radius: 12px;
+  background-color: white;
+  font-family: cursive;
+  font-variant-east-asian: normal;
+}
+
+input{
+  font-size: 20px;
+  width: 500px;
+  text-align: center;
+  font-family: serif;
+}

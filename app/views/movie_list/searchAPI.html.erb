@@ -1,0 +1,41 @@
+<div>
+  <a href="movie_list/index">Homepage</a>
+</div>
+
+<section>
+
+  <nav>
+  </nav>
+
+  <article class="description">
+
+    <div class="poster">
+      <img src="<%= @movie_info['poster_240x342'] %>"/>
+    </div>
+
+  </article>
+
+  <aside class="service">
+
+
+
+
+  </aside>
+
+</section>
+
+<footer>
+
+  <div class="movietitle">
+    <%= @movie_info["title"] %>
+  </div>
+
+  <div class="release">
+    Release Date: <%= @movie_info['release_year'] %>
+  </div>
+
+  <div class="rating">
+    Rated: <%= @movie_info["rating"] %>
+  </div>
+
+</footer>

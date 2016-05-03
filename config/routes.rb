@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  resources :users
+  get 'movie_list/index', to: 'movie_list#index'
+
+  post 'movie_lists/index', to: 'movie_list#searchAPI'
+
+  get 'search', to: 'movie_list#searchAPI'
+
+  get 'users', to: 'users'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
