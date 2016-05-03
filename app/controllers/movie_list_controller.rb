@@ -14,7 +14,7 @@ class MovieListController < ApplicationController
 
   end
 
-  end
+end
   # def parsing
   #
   #   pars = guidebox_request[]

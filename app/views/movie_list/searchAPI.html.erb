@@ -1,41 +1,41 @@
-<div class="header">
-  <p id="brand">
-    Search Screener
-  <form>
-    <input type="text" placeholder="Search..." required>
-    <input type="button" value="Search">
-  </form>
-  <!-- <a href="movie_list/index">Homepage</a> -->
+<div>
+  <a href="movie_list/index">Homepage</a>
 </div>
 
 <section>
 
   <nav>
-    <div class="poster">
-      <img src="<%= @movie_info['poster_400x570'] %>"/>
-    </div>
-
-    <div class="movietitle">
-      <%= @movie_info["title"] %>
-    </div>
-
-    <div class="release">
-      <%= @movie_info['release_year'] %>
-    </div>
-
-    <div class="rating">
-      <%= @movie_info["overview"] %>
-    </div>
   </nav>
 
   <article class="description">
-      <%= @movie_info["overview"] %>
+
+    <div class="poster">
+      <img src="<%= @movie_info['poster_240x342'] %>"/>
+    </div>
+
   </article>
 
   <aside class="service">
-    <%= @movie_info["rottentomatoes"] %>
+
+
+
+
   </aside>
 
 </section>
 
-<!-- <footer>bare feet</footer> -->
+<footer>
+
+  <div class="movietitle">
+    <%= @movie_info["title"] %>
+  </div>
+
+  <div class="release">
+    Release Date: <%= @movie_info['release_year'] %>
+  </div>
+
+  <div class="rating">
+    Rated: <%= @movie_info["rating"] %>
+  </div>
+
+</footer>
